@@ -1,0 +1,442 @@
+*{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    max-width: 1366px;
+    min-width: 1200px;
+    background-color: #eaeaea; 
+    font-size: 1rem;
+    position: relative;
+    margin: 0 auto;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+::-webkit-scrollbar{
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: grey;
+}
+
+main{
+    width: 100%;
+}
+
+/*header*/
+header{
+    border-bottom: 1px solid rgba(0,0,0,.05);
+    background-color: #eaeaea;
+    width: 100%;
+    padding: 10px 50px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navigation-links{
+    display: flex;
+    gap: 100px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #262626;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+#logo{
+    display: flex;
+}
+
+button{
+    border-radius: 10rem;
+    background-color: #030cf0;
+    color: #fff;
+    outline: none;
+    border: 0px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 10px 22px;
+    font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    margin-top: 1.875rem;
+}
+
+.first{
+    padding-bottom: 100px;
+}
+
+.btn-trans:hover{
+    transform: translateY(-10px);
+}
+
+/*main*/
+.shape-3{
+    background-image: url(https://www.markup.io/wp-content/themes/nopio_master_theme-child-markup/assets/images/shapes/shape_3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+
+.shape-4{
+    background-image: url(https://www.markup.io/wp-content/themes/nopio_master_theme-child-markup/assets/images/shapes/shape_4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 500px;
+    left: -2px;
+}
+
+.shape-1{
+    background-image: url(https://www.markup.io/wp-content/themes/nopio_master_theme-child-markup/assets/images/shapes/shape_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 80%;
+    left: -3%;
+    
+}
+
+.shape-2{
+    background-image: url(https://www.markup.io/wp-content/themes/nopio_master_theme-child-markup/assets/images/shapes/shape_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 34%;
+    left: 88%;
+    
+}
+
+#bg-text{
+    width: 90%;
+    padding: 170px 0px 0px 0px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 4.8rem;
+    letter-spacing: -3px;
+    line-height: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    color: #262626;
+    font-family: Aeoink-Black,sans-serif;
+}
+
+h2{
+    width: 120%;
+    font-size: 3.4rem;
+    display: flex;
+    flex-direction: column;
+    line-height: 3.8rem;
+    font-family: Aeoink-Black,sans-serif;
+    color: rgb(38,38,38);
+}
+
+h5{
+    color: white
+}
+
+p{
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+#login-signup{
+    padding-top: 5px;
+}
+
+#logo-container{
+    width: 100%;
+    padding-bottom: 20px;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 90%;
+    font-weight: 400;
+}
+
+img.logo{
+    width: 6rem;
+}
+
+#video-block{
+    width: 90%;
+    text-align: center;
+    transform-style: preserve-3d;
+    margin: 0 auto;
+}
+
+#curvebg{
+    width: 130%;
+    background-color: rgba(32,31,31);
+    height: 800px;
+    border-radius: 50%;
+    position: absolute;
+    top: 20%;
+    left: -184px;
+    z-index: -1;
+}
+
+.bg-text{
+    width: 100%;
+    background-color: rgb(32, 31, 31);
+    padding: 15rem 0px;
+}
+
+.bg-text-img{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+.image{
+    width: 700px;
+}
+
+.imagex{
+    width: 500px;
+    margin-right: 5rem;
+}
+
+
+.bg-text1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-bottom: 80px;
+}
+
+.bg-text>.image{
+    width: 550px;
+}
+
+.bg-text1>.image{
+    width: 700px;
+    transform: translate(6.5%, -10%);
+}
+
+.details{
+    width: 40%;
+    padding-top: 50px;
+}
+
+.sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 50px;
+    z-index: -1;
+}
+
+
+.icon{
+    width: 40px;
+    transform: translate(50%, 50%);
+}
+
+#icon-list{
+    width: 50%;
+    gap: 40px;
+}
+
+.image-wrapper{
+    background-color: rgba(38,38,38,.7);
+    width: 80px;
+    height: 80px;
+    border-radius: 1.4rem;
+}
+
+.details{
+    transform: translate(20%, 20%);
+}
+
+.bg-text4{
+    width: 100%;
+    background-color: #262626;
+    color: white;
+    padding-bottom: 150px;
+}
+
+.text-block{
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    padding: 120px 160px;
+}
+
+#text-r{
+    width: 70%;
+    padding-top: 60px;
+}
+
+#text-b{
+    width: 84%;
+    height: 20%;
+    background-color: #eaeaea;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.text-b-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-text5{
+    display: flex;
+    background-color: #eaeaea;
+    color: rgb(38,38,38);
+    padding: 100px 100px;
+    margin: 0 auto;
+}
+
+.bg-text5>img{
+    width: 550px;
+    padding-top: 250px;
+}
+
+.bg-text6{
+    background-color: #eaeaea;
+    margin: 0 auto;
+    padding: 0px 100px 100px;
+}
+
+.bg-text6>h2{
+    transform: translate(24%);
+    margin-bottom: 0;
+}
+
+.bg-text6-img{
+    width: 600px;
+}
+
+.text6{
+    width: 70%;
+}
+
+.bg-text7{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px 0px;
+}
+
+.text7-image{
+    background-color: black;
+    padding: 100px;
+}
+
+.text7-image>.image{
+    width: 500px;
+    height: 300px;
+}
+
+.bg-text8{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 70px;
+    position: relative;
+
+}
+
+#text1>h3, #text2>h3, #text3>h3{
+    font-size: 2.3rem;
+    width: 100%;
+    
+}
+
+#text1, #text2, #text3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.bg-text9{
+    background-color: #eaeaea;
+    color: white;
+    text-align: center;
+    padding: 70px;
+    margin-bottom: 100px;
+}
+
+.chat-box{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    position: fixed;
+    top: 84%;
+    left: 95px;
+    
+}
+
+.chat{
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: white;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eaeaea;
+    border-top: 1px solid rgba(0,0,0,.05);
+    padding: 20px;
+}
+
+footer>p{
+    width: 30%;
+}
+
+footer>ul{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+}
