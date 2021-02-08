@@ -112,8 +112,8 @@ button{
     width: 150px;
     height: 150px;
     position: absolute;
-    top: 500px;
-    left: -2px;
+    top: 540px;
+    left: 200px;
 }
 
 .shape-1{
@@ -407,9 +407,9 @@ img.logo{
     width: 60px;
     height: 60px;
     background-color: blue;
-    position: fixed;
-    top: 84%;
-    left: 95px;
+    position: sticky;
+    bottom: 6%;
+    left: 94%;
     
 }
 

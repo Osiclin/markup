@@ -16,7 +16,7 @@ function showText() {
     $('#text1').slideDown(500).delay(10000).fadeOut();
     $('#text2').delay(10900).slideDown(500).delay(10000).fadeOut();
     $('#text3').delay(21900).slideDown(500).delay(10000).fadeOut();
-    setTimeout(showText, 33000);
+    setTimeout(showText, 33500);
 }
 
 showText();
