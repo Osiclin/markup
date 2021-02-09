@@ -123,7 +123,7 @@ button{
     height: 120px;
     position: absolute;
     top: 80%;
-    left: -3%;
+    left: 9%;
     
 }
 
@@ -131,11 +131,11 @@ button{
     background-image: url(https://www.markup.io/wp-content/themes/nopio_master_theme-child-markup/assets/images/shapes/shape_2.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     position: absolute;
     top: 34%;
-    left: 88%;
+    left: 80%;
     
 }
 
@@ -190,7 +190,7 @@ img.logo{
 }
 
 #video-block{
-    width: 90%;
+    width: 100%;
     text-align: center;
     transform-style: preserve-3d;
     margin: 0 auto;
@@ -305,7 +305,7 @@ img.logo{
     display: flex;
     background-color: #eaeaea;
     color: rgb(38,38,38);
-    padding: 100px 100px;
+    padding: 100px 150px;
     margin: 0 auto;
 }
 
@@ -384,7 +384,7 @@ img.logo{
     background-color: #eaeaea;
     color: black;
     text-align: center;
-    padding: 170px;
+    padding: 120px;
 }
 
 .chat-box{
