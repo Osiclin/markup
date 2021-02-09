@@ -196,23 +196,12 @@ img.logo{
     margin: 0 auto;
 }
 
-#curvebg{
-    width: 1366px;
-    background-color: rgba(32,31,31);
-    height: 900px;
-    border-radius: 50%;
-    position: absolute;
-    top: 74%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-}
 
 .bg-text{
     width: 100%;
     background-color: rgb(32, 31, 31);
     padding: 500px 0px 100px;
-    margin-top: -210px;
+    margin-top: -300px;
 }
 
 .bg-text-img{
