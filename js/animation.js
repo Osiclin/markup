@@ -13,10 +13,13 @@ bgText8[0].style.height = "400px";
 
 function showText() {
     
-    $('#text1').slideDown(500).delay(10000).fadeOut();
-    $('#text2').delay(10900).slideDown(500).delay(10000).fadeOut();
-    $('#text3').delay(21900).slideDown(500).delay(10000).fadeOut();
-    setTimeout(showText, 33300);
+    $('#text1').slideDown().delay(10000).fadeOut();
+    $('#text2').delay(11000).slideDown().delay(10000).fadeOut();
+    $('#text3').delay(22000).slideDown().delay(10000).fadeOut();
+    setInterval(() => {
+        showText()
+    }, 33000);
+    
 }
 
 showText();

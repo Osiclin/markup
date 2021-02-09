@@ -102,6 +102,14 @@ button{
     position: absolute;
     top: 300px;
     right: 150px;
+    transition: 2s;
+    animation: move 10s infinite;
+}
+
+@keyframes move {
+    0% {top: 300px;}
+    50% {top: 280px;}
+    100% {top: 300px;}
 }
 
 .shape-4{
