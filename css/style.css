@@ -45,7 +45,8 @@ header{
 
 #navigation-links{
     display: flex;
-    gap: 100px;
+    column-gap: 50px;
+    -webkit-column-gap: 50px;
     font-size: 14px;
     font-weight: 500;
     font-family: Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -239,7 +240,8 @@ img.logo{
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 150px;
+    column-gap: 150px;
+    -webkit-column-gap: 150px;
     padding-bottom: 80px;
 }
 
@@ -275,7 +277,8 @@ img.logo{
 
 #icon-list{
     width: 50%;
-    gap: 40px;
+    column-gap: 40px;
+    -webkit-column-gap: 40px;
 }
 
 .image-wrapper{
@@ -441,5 +444,6 @@ footer>p{
 footer>ul{
     display: flex;
     list-style: none;
-    gap: 100px;
+    column-gap: 100px;
+    -webkit-column-gap: 100px;
 }
