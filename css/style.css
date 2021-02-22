@@ -248,7 +248,7 @@ img.logo{
 }
 
 .details{
-    width: 40%;
+    width: 50%;
     padding-top: 50px;
     transform: translate(20%, 20%);
 }
@@ -383,7 +383,7 @@ img.logo{
 }
 
 #text1, #text2, #text3{
-    width: 56%;
+    width: 62%;
     position: absolute;
     top: 50%;
     left: 50%;
