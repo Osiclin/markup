@@ -253,6 +253,10 @@ img.logo{
     transform: translate(20%, 20%);
 }
 
+.details>h2{
+    width: 500px;
+}
+
 .sticky{
     position: sticky;
     position: -webkit-sticky;
