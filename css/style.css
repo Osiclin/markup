@@ -257,6 +257,10 @@ img.logo{
     width: 400px;
 }
 
+.details>p{
+    width: 84%;
+}
+
 .sticky{
     position: sticky;
     position: -webkit-sticky;
